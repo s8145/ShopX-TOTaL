@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.193" errors="0" skipped="0" tests="10" name="com.pl.tests.ClientTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/devel/jdk1.6.0_27/jre/lib/i386"/>
+    <property name="java.vm.version" value="20.2-b06"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/student/git/shopX/shopX"/>
+    <property name="java.runtime.version" value="1.6.0_27-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/student/git/shopX/shopX"/>
+    <property name="java.endorsed.dirs" value="/opt/devel/jdk1.6.0_27/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/home/student/git/shopX/shopX/target/surefire/surefirebooter1671178643943309968.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/opt/devel/jdk1.6.0_27/jre/lib/i386/client:/opt/devel/jdk1.6.0_27/jre/lib/i386:/opt/devel/jdk1.6.0_27/jre/../lib/i386:/opt/devel/jdk1.6.0_27/jre/lib/i386/client:/opt/devel/jdk1.6.0_27/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/student/git/shopX/shopX/target/test-classes:/home/student/git/shopX/shopX/target/classes:/opt/devel/maven_repo/org/hsqldb/hsqldb/2.2.4/hsqldb-2.2.4.jar:/opt/devel/maven_repo/junit/junit/4.10/junit-4.10.jar:/opt/devel/maven_repo/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/opt/devel/maven_repo/org/hibernate/hibernate-core/3.6.6.Final/hibernate-core-3.6.6.Final.jar:/opt/devel/maven_repo/antlr/antlr/2.7.6/antlr-2.7.6.jar:/opt/devel/maven_repo/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/opt/devel/maven_repo/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/opt/devel/maven_repo/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar:/opt/devel/maven_repo/javax/transaction/jta/1.1/jta-1.1.jar:/opt/devel/maven_repo/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/opt/devel/maven_repo/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar:/opt/devel/maven_repo/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar:/opt/devel/maven_repo/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar:/opt/devel/maven_repo/org/hibernate/hibernate-entitymanager/3.6.6.Final/hibernate-entitymanager-3.6.6.Final.jar:/opt/devel/maven_repo/cglib/cglib/2.2/cglib-2.2.jar:/opt/devel/maven_repo/asm/asm/3.1/asm-3.1.jar:/opt/devel/maven_repo/javassist/javassist/3.12.0.GA/javassist-3.12.0.GA.jar:/opt/devel/maven_repo/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/opt/devel/maven_repo/log4j/log4j/1.2.16/log4j-1.2.16.jar:/opt/devel/maven_repo/jboss/javassist/3.7.ga/javassist-3.7.ga.jar:/opt/devel/maven_repo/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/opt/devel/maven_repo/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="2.6.38-11-generic"/>
+    <property name="user.home" value="/home/student"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="student"/>
+    <property name="java.class.path" value="/home/student/git/shopX/shopX/target/test-classes:/home/student/git/shopX/shopX/target/classes:/opt/devel/maven_repo/org/hsqldb/hsqldb/2.2.4/hsqldb-2.2.4.jar:/opt/devel/maven_repo/junit/junit/4.10/junit-4.10.jar:/opt/devel/maven_repo/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/opt/devel/maven_repo/org/hibernate/hibernate-core/3.6.6.Final/hibernate-core-3.6.6.Final.jar:/opt/devel/maven_repo/antlr/antlr/2.7.6/antlr-2.7.6.jar:/opt/devel/maven_repo/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/opt/devel/maven_repo/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/opt/devel/maven_repo/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar:/opt/devel/maven_repo/javax/transaction/jta/1.1/jta-1.1.jar:/opt/devel/maven_repo/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/opt/devel/maven_repo/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar:/opt/devel/maven_repo/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar:/opt/devel/maven_repo/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar:/opt/devel/maven_repo/org/hibernate/hibernate-entitymanager/3.6.6.Final/hibernate-entitymanager-3.6.6.Final.jar:/opt/devel/maven_repo/cglib/cglib/2.2/cglib-2.2.jar:/opt/devel/maven_repo/asm/asm/3.1/asm-3.1.jar:/opt/devel/maven_repo/javassist/javassist/3.12.0.GA/javassist-3.12.0.GA.jar:/opt/devel/maven_repo/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/opt/devel/maven_repo/log4j/log4j/1.2.16/log4j-1.2.16.jar:/opt/devel/maven_repo/jboss/javassist/3.7.ga/javassist-3.7.ga.jar:/opt/devel/maven_repo/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/opt/devel/maven_repo/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/opt/devel/jdk1.6.0_27/jre"/>
+    <property name="sun.java.command" value="/home/student/git/shopX/shopX/target/surefire/surefirebooter1671178643943309968.jar /home/student/git/shopX/shopX/target/surefire/surefire4506057562672885208tmp /home/student/git/shopX/shopX/target/surefire/surefire8453032660982398942tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="pl"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_27"/>
+    <property name="java.ext.dirs" value="/opt/devel/jdk1.6.0_27/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/opt/devel/jdk1.6.0_27/jre/lib/resources.jar:/opt/devel/jdk1.6.0_27/jre/lib/rt.jar:/opt/devel/jdk1.6.0_27/jre/lib/sunrsasign.jar:/opt/devel/jdk1.6.0_27/jre/lib/jsse.jar:/opt/devel/jdk1.6.0_27/jre/lib/jce.jar:/opt/devel/jdk1.6.0_27/jre/lib/charsets.jar:/opt/devel/jdk1.6.0_27/jre/lib/modules/jdk.boot.jar:/opt/devel/jdk1.6.0_27/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/opt/devel/maven_repo"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.003" classname="com.pl.tests.ClientTest" name="test_addManga"/>
+  <testcase time="0" classname="com.pl.tests.ClientTest" name="test_getName"/>
+  <testcase time="0.001" classname="com.pl.tests.ClientTest" name="test_setName"/>
+  <testcase time="0" classname="com.pl.tests.ClientTest" name="test_getSurname"/>
+  <testcase time="0.001" classname="com.pl.tests.ClientTest" name="test_setSurname"/>
+  <testcase time="0" classname="com.pl.tests.ClientTest" name="test_getMangasList"/>
+  <testcase time="0.001" classname="com.pl.tests.ClientTest" name="test_removeManga"/>
+  <testcase time="0.002" classname="com.pl.tests.ClientTest" name="test_removeAllMangas"/>
+  <testcase time="0" classname="com.pl.tests.ClientTest" name="test_findMangaByTitle"/>
+  <testcase time="0.001" classname="com.pl.tests.ClientTest" name="testPriceLessThanZeroException"/>
+</testsuite>
